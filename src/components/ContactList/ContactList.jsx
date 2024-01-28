@@ -9,7 +9,7 @@ class ContactList extends React.Component {
             <ul>
                 {contacts.map((contact) => (
                     <Contact key={contact.id} contact={contact} onDeleteContact = {onDeleteContact}/>
-                 ))};
+                 ))}
             </ul>
         );
     }

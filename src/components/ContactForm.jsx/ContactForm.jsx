@@ -33,7 +33,7 @@ class ContactForm extends React.Component {
         </label>
         <button type="submit">Add contact</button>
       </form>
-    );  
+    )  
     }
 
 }
