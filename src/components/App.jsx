@@ -33,8 +33,10 @@ class App extends Component {
 
 
   handleChange = (e) => {
-    this.setState({ [e.target.name]: e.target.value });
+    const { name, value } = e.target;
+    this.setState({ [name]: value });
   };
+  
 
   handleDeleteContact = (id) => {
     this.setState({
